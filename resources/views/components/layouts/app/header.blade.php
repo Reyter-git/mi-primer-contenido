@@ -16,7 +16,7 @@
                     {{ __('Dashboard') }}
                 </flux:navbar.item>
 
-                <flux:navbar.item icon="layout-grid" :href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
+                <flux:navbar.item href="route('dashboard')" :current="request()->routeIs('dashboard')" wire:navigate>
                     {{ __('Eventos') }}
                 </flux:navbar.item>
 

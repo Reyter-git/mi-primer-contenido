@@ -27,5 +27,5 @@ new class extends Component {
 }; ?>
 
 <div>
-    en tus manos para borrar
+    //
 </div>
